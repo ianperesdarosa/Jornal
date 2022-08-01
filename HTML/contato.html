@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="" type="image/">
+        <link rel="stylesheet" type="text/css" href="/css/contato.css">
+        <title>Contato | Jornal Metropolitan</title>
+    </head>
+    <body>
+    <main>
+        <header>
+
+            <img id="ico" src="/ico/ao-redor-do-mundo.gif">
+
+        <div id="menu">
+            
+                <a class="nav-item"  href="index.html"> Home </a> 
+                <a class="nav-item" href="Quem-Somos.html"> Quem nos somos </a> 
+                <a class="nav-item" href="#"> Cadastro </a>
+                <a class="nav-item" href="#"> Login </a>
+        </div>
+
+
+</header>   
+
+<aside>
+                
+    <h1>Deixe sua mensagem</h1>
+
+
+        <div id="container">
+
+                
+                <form method="post" name="form" action="php/validar.php" onsubmit="return validar()" class="formulario">
+
+                    
+                        <label>Seu nome</label>
+                        <input type="text" name="txtnome" id="nome">
+                    
+
+                    
+                        <label>Número para contato</label>
+                        <input type="tel" name="txttel" id="numero">
+                    
+
+                    
+                        <label>Email</label>
+                        <input type="email" name="txtemail" id="email">
+                    
+
+                    
+                        <label> Cidade: </label>
+                        <select name="cidade">
+                            <option value="vazio"> Selecione... </option>
+                            <option value="">Porto Alegre</option>
+                            <option value="">Região Metropolitana</option>
+                            <option value="">Vales</option>
+                            <option value="">Fronteira Oeste</option>
+                            <option value="">Litoral Norte</option>
+                            <option value="">Região Central</option>
+                            <option value="">Região da Campanha</option>
+                            <option value="">Região Noroeste</option>
+                            <option value="">Região Norte</option>
+                            <option value="">Região Sul do RS</option>
+                            <option value="">Mato Grosso</option>
+                            <option value="">Serra Gaúcha</option>                            
+                        </select>
+                
+                
+                        <textarea name="mensagem" class="msg" placeholder="Deixe seu Comentário"></textarea>
+
+                    
+                    
+                </form>
+
+                <div id="container-btn">
+                    <input  type="submit" value="Enviar" name="bt_enviar" class="btn">
+                    <input  type="reset" value="Limpar" class="btn">
+                </div>
+
+        </div>
+
+</aside>
+
+
+        <footer>                
+            <span>Site apenas com objetivo educacional</span>   
+              <span>Contato: (51)3334-3535</span>
+                         
+            <h5>&copy; 2022 Jornal Metropolitan</h5>                                     
+          </footer>
+          
+    </body>
+</html>        
