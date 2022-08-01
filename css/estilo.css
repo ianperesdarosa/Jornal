@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.preto-branco{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+}
+.main-conteudo{
+    padding: 0;
+}
+#body{
+    background-color: #6596ff;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 134);
+    height: 300px;  
+    width: 100%;     
+    border: 2px solid white
+}
+.esconder-titulo{
+    display: none;
+}
+.menu{
+    background-color: #f1bb55;
+}
+.menu-item{
+    color: #004cef;
+}
+.menu-item:hover{
+    color: #d5ee4a;
+}
+.active{
+    background-color: #99883f;
+}
+#listamenu{
+    list-style: none;
+    padding: 0;
+}
+#listamenu li{
+    display: inline;
+}
+
+.formulario{
+    width: 100%;
+}
+.post1{
+    background-color: #9b9e8b;
+}
+.h2-estilo{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.text-justify{
+  font-size: medium;
+}
+#menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100% auto;
+  overflow: hidden;
+  position: absolute;
+  right: 32%;
+  top: 10%;
+  width: 30em;
+  margin-top: -2.5em;
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+}
+
+#menu li a{
+  float: right;
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+a:hover{
+  letter-spacing: 1px;
+}
+
+/* Fim Barra do Menu */
+
+/* Area do Cadastro/Login */
+
+#menucadastro ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100% auto;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 30em;
+  margin-top: -2.5em;
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+}
+
+#menucadastro li a{
+  float: right;
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* Fim do Cadastro/ Login */
+
+/* Começo Logo ao Lado do Menu */
+
+#logoempresa{
+  margin: 0;
+  padding: 0;
+  margin-top: 0.9cm;
+  margin-left: 1cm;
+}
+
+/* Fim da Logo */
+
+/* Inicio das Box */
+
+.container1 {
+  height: 500px;
+  background: #f2f2f2;
+}
